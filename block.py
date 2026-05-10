@@ -21,3 +21,6 @@ class Block(ABC):
     def add_link(self, other: Block, direction: Direction) -> None:
         ...
 
+    @abstractmethod
+    def clear(self):
+        ...
